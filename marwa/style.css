@@ -1,0 +1,5 @@
+@media only screen and (max-width:624px) {
+   .one{
+    display: block !important;
+   }
+  }
