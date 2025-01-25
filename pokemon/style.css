@@ -1,0 +1,37 @@
+img {
+    width: auto;
+    height: 26px;
+
+}
+
+.hero {
+    box-sizing: border-box;
+    border: 0.5px solid rgb(185, 184, 184);
+}
+
+.active {
+    box-shadow: 5px 5px 10px gray;
+}
+
+img:hover {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.5rem;
+    /* Adjust padding for smaller size */
+    font-size: 0.875rem;
+    /* Smaller font size */
+    width: 35px;
+    /* Adjust width */
+    height: 30px;
+    /* Adjust height */
+}
+
